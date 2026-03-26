@@ -2,7 +2,7 @@
 
 
 Always by your side.
-(Logo) 
+![로고 삽입](image/앰블럼.png)
 
 22211972 이동준 (dongjun9021@naver.com)
 
