@@ -1,7 +1,7 @@
-#1. Conceptualization
+# 1. Conceptualization
 
 
-Always by your side.
+## Always by your side.
 
 
 
@@ -19,10 +19,10 @@ Always by your side.
  
 
 
-[ Revision history ]
+## [ Revision history ]
 
 
-Revision 
+**Revision** 
 | date | Version | Description	| Author|
 |-------------|--------|--------------------------------|---------|
 | 03/27/2026 | 0.00 | fist start | dongjun |
@@ -36,7 +36,7 @@ Revision
 
 
 
-= Contents =
+## = Contents =
 
 
 
@@ -57,7 +57,7 @@ Revision
 
 
  
-1. Business purpose
+## 1. Business purpose
 
 ![활동지원사 현황](image/매칭현황.png)
 
@@ -71,30 +71,60 @@ Revision
 고령화가 진행중인 대한민국의 상황을 생각하면 앞으로 장애인 이외에도 활동지원사의 도움이 필요한 사람은 매년 점차 증가할 것으로 보이는데 활동지원사들과 도움이 필요한 사람 간의 매칭을 도와주는 프로그램이 있으면 도움이 필요하나 도움을 받지 못하게 되는 사람이 줄어들 것이라고 생각이 들었다. 
 
 
-2. System context diagram
+## 2. System context diagram
  
 ![다이어그램](image/다이어그램.png)
 -로그인
 -회원가입
+-관리자로 로그인
 -지원사 등록
 -도움이 필요한 사람 등록
--관리자로 로그인
 -현황 관리
 
 
-3. Use case list
+## 3. Use case list
  
 
 
 
-ex)
-1) Login
-Actor	Customer, Manager
-Description	고객과 매니저가 각자 자신의 아이디로 로그인한다.
+
+1) 로그인
+| Actor | 활동지원사, 도움이 필요한 사람 |
+|-------------|--------------------------------------------|
+| Description |	활동지원사와 도움이 필요한 사람이 각자 자신의 아이디로 로그인한다. |
 
 
+2) 회원가입
+| Actor |	활동지원사, 도움이 필요한 사람 |
+|-------------|--------------------------------------------|
+| Description |	활동지원사와 도움이 필요한 사람이 아이디가 없을 시 각자 자신의 아이디로 로그인하기 위해 회원가입을 한다. |
+
+
+3) 관리자로 로그인
+| Actor |	관리자  |
+|-------------|--------------------------------------------|
+| Description |	관리자가 서버관리와 현황관리를 위해 자신의 아이디로 로그인한다. |
+
+
+4) 활동지원사 등록
+| Actor |	활동지원사 |
+|-------------|--------------------------------------------|
+| Description |	활동지원사가 도움이필요한 사람과의 매칭을 위해 자신을 등록한다. |
+
+
+5) 도움이 필요한 사람 등록
+| Actor |	도움이 필요한 사람 |
+|-------------|--------------------------------------------|
+| Description |	도움이 필요한 사람이 활동지원사에게 도움을 요청하기 위해 자신을 등록한다. |
+
+
+6) 현황관리
+| Actor |	관리자  |
+|-------------|--------------------------------------------|
+| Description |	활동지원사의 활동 내역 및 이용자들의 건의사항을 확인 할 수 있다. |
  
-4. Concept of operation
+
+## 4. Concept of operation
  
 
 ex)
@@ -110,7 +140,7 @@ Goals	로그인 기능을 구현한다.
 
 
 
-5. Problem statement
+## 5. Problem statement
  
 
 
@@ -123,7 +153,7 @@ Goals	로그인 기능을 구현한다.
 
 
 
-6. Glossary
+## 6. Glossary
  
 
 
@@ -132,5 +162,5 @@ Goals	로그인 기능을 구현한다.
 
 
 
-7. References
+## 7. References
  
